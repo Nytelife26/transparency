@@ -14,7 +14,7 @@ with no exception.
 Let this be the declaration that marks my commitment to openness, honesty, and
 absolute transparency as my core operational values. No business I engage in
 shall ever be separate from these values, and anyone that tries to restrict them
-has or ever will have any respect in my eyes.
+neither has nor ever will have any respect in my eyes.
 
 See [LICENSE.md](https://github.com/Nytelife26/transparency/LICENSE.md) for more
 information about the rights of freedom and usage of these documents.
