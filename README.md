@@ -16,5 +16,19 @@ absolute transparency as my core operational values. No business I engage in
 shall ever be separate from these values, and anyone that tries to restrict them
 neither has nor ever will have any respect in my eyes.
 
-See [LICENSE.md](https://github.com/Nytelife26/transparency/LICENSE.md) for more
-information about the rights of freedom and usage of these documents.
+<p xmlns:dct="http://purl.org/dc/terms/">
+	<a rel="license" href="http://creativecommons.org/publicdomain/zero/1.0/">
+		<img 
+			src="https://licensebuttons.net/p/zero/1.0/88x31.png" 
+			style="border-style: none;" 
+			alt="CC0" 
+		/>
+	</a>
+	<br />
+	To the fullest extent possible under law,
+	<a rel="dct:publisher" href="https://keybase.io/nytelife26/">
+		<span property="dct:title">I, Tyler J. Russell</span>
+	</a>
+	have waived all copyright and related or neighboring rights to the
+	<span property="dct:title">Transparency is Crucial Repository</span>.
+</p>
