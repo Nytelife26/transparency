@@ -42,8 +42,14 @@ def display(left, right):
 		global l
 		global r
 		for y in ["left", "right"]:
-			exec(f"global l\nglobal r\ntry:\n	 {y[0]} = {y}[x].center(side)\nexcept IndexError:\n    {y[0]} = ''.center(side)")
-
+			exec(f"""
+global l
+global r
+try:
+	{y[0]} = {y}[x].center(side)
+except IndexError:	  
+	{y[0]} = ''.center(side)
+			""")
 		print(f"{l} | {r}")
 
 def swap(left, right, entity):
@@ -66,25 +72,27 @@ def game():
 	while not over:
 		display(lside, rside)
 		choices = {"f": "Fox", "h": "Hen", "c": "Corn", "n": None}
-		valid = False
-		while not valid:
+		while True:
 			choice = input("Which do you wish to move? (F, H, C, or N for none)\n> ").lower()
 			if choice in choices.keys():
 				lside, rside = swap(lside, rside, choices[choice])
-				valid = True
-			else:
-				print("That was not one of the required choices. Please try again.")
+				break
+			print("That was not one of the required choices. Please try again.")
 		moves += 1
 
-		if all([x in rside for x in ["Fox", "Hen", "Corn"]]):
+		fox = ["Fox" in lside, "Fox" in rside]
+		hen = ["Hen" in lside, "Hen" in rside]
+		corn = ["Corn" in lside, "Corn" in rside]
+		you = ["You" in lside, "You" in rside]
+		if all([x == [False, True] for x in [fox, hen, corn]]):
 			display(lside, rside)
 			print(f"You won in {moves} moves! You moved them all to the right side of the river without losing. Well done!")
 			over = True
-		if ("Fox" in rside and "Hen" in rside and "You" not in rside) or ("Fox" in lside and "Hen" in lside and "You" not in lside):
+		if fox == hen and fox != you:
 			display(lside, rside)
 			print("Ouch... You let the fox eat the hen, so you lose... Better luck next time! :(")
 			over = True
-		if ("Hen" in rside and "Corn" in rside and "You" not in rside) or ("Hen" in lside and "Corn" in lside and "You" not in lside):
+		if hen == corn and hen != you:
 			display(lside, rside)
 			print("Ouch... You let the hen eat the corn, so you lose... Better luck next time! :(")
 			over = True
