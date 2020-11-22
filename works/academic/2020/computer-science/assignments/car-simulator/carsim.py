@@ -19,7 +19,7 @@ def decelerate(speed, gear, rpm, hp, rad, mass):
 	acceleration = (force / mass) * 32.18
 	new_speed = speed - acceleration
 	return (new_speed, gear, getRPM(new_speed, gear, rad))
-	
+
 def eventHandler(speed, gear, rpm, hp, rad, mass):
 	events = pygame.event.get()
 	for event in events:
@@ -55,14 +55,14 @@ def main():
 	rad = carTypes["default"]["tyreRad"]
 	mass = carTypes["default"]["mass"]
 	gear = carTypes["default"]["ratios"][str(selected_gear)]
-	
+
 	pygame.init()
 	screen = pygame.display.set_mode((540, 540))
 	pygame.display.set_caption("Car Simulator v1.0 by Nytelife26")
-	
+
 	background = pygame.Surface(screen.get_size())
 	background = background.convert()
-	
+
 	font = pygame.font.Font(None, 24)
 	while True:
 		event = eventHandler(speed, gear, rpm, hp, rad, mass)
