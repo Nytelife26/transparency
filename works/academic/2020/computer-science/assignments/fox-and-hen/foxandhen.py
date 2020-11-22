@@ -104,8 +104,26 @@ def info():
 	pass
 
 def help():
-	clearterm()
-	pass
+	print("""
+This is a Python implementation of the Fox and Hen game, by Tyler J. Russell.
+
+The gist of the game is that you, the player, must move all the other entities \
+(the fox, hen, and corn) to the other side of the river. However, the \
+challenge is that you may not leave the fox and hen or hen and corn on either \
+side together unattended at any time. Otherwise, the fox will eat the hen, or \
+the hen will eat the corn.
+
+Each turn, you can choose to take ONE of the entities with you, or nothing at \
+all. Note that choosing to take nothing will move you to the other side, just \
+without anything else to accompany you.
+
+Mathematically speaking, the best solution to this challenge requires only 7 \
+steps. See if you can achieve that, or do your best!
+
+Have fun :)
+You may press return to exit this page at any time.
+	""")
+	input("> ")
 
 def mainmenu():
 	while True:
