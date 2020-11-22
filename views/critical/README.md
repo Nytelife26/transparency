@@ -23,5 +23,6 @@ proper research science.
 ## Post scriptum
 My personal thanks go to Robert Pike for inspiring me to take up a pursuit of
 broader academics and sciences beyond the computing industry, and the folks
-from Bell Labs behind [Plan 9](https://9p.io/plan9) and eventually 9front for
-inspiring me to look beyond the state of modern computer science.
+from Bell Labs behind [Plan 9](https://9p.io/plan9) and eventually
+[9front](http://9front.org) for inspiring me to look beyond the state of modern
+computer science.
