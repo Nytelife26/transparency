@@ -14,6 +14,7 @@ def main():
 		complement = 2020 - x
 		if complement in nums:
 			pair = (x, complement)
+			break
 	print(f"Result: {pair[0] * pair[1]}")
 
 if __name__ == "__main__":
