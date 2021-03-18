@@ -57,6 +57,13 @@ ineffective and promotes an environment where people say what society wants to
 hear in order to get into power and then do whatever they wish once they have
 the chair. It is a selfish notion and one that is greatly harmful to society.
 
+It has been raised that, while all of the above is true, lying is nigh on
+impossible to counter. I disagree. While you may not be able to prevent people
+from lying altogether, you can verify the feasibility of their public promises
+and hold them accountable for fulfilling them once they pass into power. An
+election campaign should be approximately like building a hiring contract with
+the public
+
 ## Section B - Imperialism
 
 Imperialism presents itself in many forms. I will discuss the primary ones here.
@@ -98,7 +105,7 @@ end of a trade deal is operating with selfish nature, the other party
 should objectively decline with good reason. What is the purpose of exchange of
 any resource or information if not to benefit those involved to some degree?
 
-As for human rights, see part 5, as preserving human rights in foreign nations
+As for human rights, see part 4, as preserving human rights in foreign nations
 is as important as preserving human rights anywhere in the world.
 
 ## Section D - Electorates
@@ -120,6 +127,11 @@ Then, when the time comes, when citizens vote they should be presented with the
 list of candidates and their stated goals and premises as a reminder so they
 can make an educated and fair decision on who they feel would do best for
 their country and for humanity.
+
+It is, however, largely unfair to put candidates on the spot for various
+complex scenarios. This is due to the fact that competent leaders must identify
+when the task at hand is out of their expertise and when they should consult
+their advisors and scientists of various disciplines to analyze the situation.
 
 # Part Three - Economics
 
@@ -188,6 +200,14 @@ operate safely alongside the public sector so other firms can offer state of the
 art specialized care to cover for procedures that may take too long or not yet
 be possible if done via public funding. This is one of the most economically
 sufficient and publicly usable systems devised worldwide by those metrics.
+However, it is argued that this would not scale well across larger nations.
+Some populations are large enough that a tax-sustained healthcare system is not
+viable. In these cases, my other suggestions on tax (see section B) should
+compensate and allow people to afford more, meaning they could afford
+individually to pay slightly more for public medical insurance which would
+sustain the system. Note however that I do not mean the public medical insurance
+used by the US - the prices are extortionately high and care quality varies too
+widely between states.
 
 Alongside this, the war on drugs has ensued for too long. Imprisoning people for
 usage of drugs is ineffective in a society with declining psychological
@@ -202,3 +222,21 @@ the most humane solution and also puts much less strain on the economy and
 prison system than incarcerating them, freeing up space for the criminally
 dangerous to be dealt with rather than wasting resources on an ineffective
 deterrent from drug use.
+
+## Section D - Debt and Deficit
+
+To be done.
+
+# Part Four - Society
+
+## Human Rights
+
+To be done.
+
+## Equality
+
+To be done.
+
+## Liberty and Rights
+
+To be done.
