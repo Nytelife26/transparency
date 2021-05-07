@@ -9,5 +9,5 @@ pub fn brackets_are_balanced(string: &str) -> bool {
 			_ => (),
 		};
 	}
-	nest.len() == 0
+	nest.is_empty()
 }
