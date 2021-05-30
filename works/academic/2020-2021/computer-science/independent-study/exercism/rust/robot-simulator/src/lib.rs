@@ -1,9 +1,18 @@
+use std::mem::transmute;
+
 #[derive(PartialEq, Debug)]
 pub enum Direction {
 	North,
 	East,
 	South,
 	West,
+}
+
+impl From<u8> for Direction {
+	fn from(n: u8) -> Direction {
+		assert!(Direction::North as u8 <= n && Direction::West as u8 >= n);
+		unsafe { transmute(n) }
+	}
 }
 
 pub struct Robot {
@@ -20,22 +29,12 @@ impl Robot {
 	}
 
 	pub fn turn_right(mut self) -> Self {
-		self.direction = match self.direction {
-			Direction::North => Direction::East,
-			Direction::East => Direction::South,
-			Direction::South => Direction::West,
-			Direction::West => Direction::North,
-		};
+		self.direction = Direction::from((self.direction as u8 + 1) % 4);
 		self
 	}
 
 	pub fn turn_left(mut self) -> Self {
-		self.direction = match self.direction {
-			Direction::North => Direction::West,
-			Direction::West => Direction::South,
-			Direction::South => Direction::East,
-			Direction::East => Direction::North,
-		};
+		self.direction = Direction::from((self.direction as u8 + 3) % 4);
 		self
 	}
 
