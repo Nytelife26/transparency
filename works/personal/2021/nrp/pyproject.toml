@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nrp"
+version = "0.1.0"
+description = ""
+authors = ["Nytelife26 <xtylerjrx@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.25.1"
+azure-cognitiveservices-vision-face = "^0.5.0"
+boto3 = "^1.17.111"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
